@@ -1,5 +1,5 @@
 //
-//  TLSViewController.h
+//  TLSTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Pepe Sosa on 10/07/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TLSViewController : UIViewController
+@interface TLSTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray *contenidoArray;
 
 @end
