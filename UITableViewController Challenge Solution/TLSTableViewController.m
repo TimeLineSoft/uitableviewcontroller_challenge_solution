@@ -86,7 +86,6 @@
     // Configure the cell...
     
     if (indexPath.section == 0) {
-        
         cell.textLabel.text = @"Estoy en la sección: 0";
         cell.backgroundColor = [UIColor redColor];
     }else if (indexPath.section == 1){
